@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Responsible Admin Dashboard</title>
+</head>
+<body>
+    <div class="__container">
+        <!-- SideBar start -->
+        <aside>
+            <div class="__toggle">
+                <div class="__logo">
+                    <img src="img/logo.png" alt="logotype">
+                    <h2><span class=__danger>Dashboard</span></h2>
+                </div>
+                <div class="__close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+            
+            <div class="__sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        person_outline
+                    </span>
+                    <h3>Users</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        receipt_long
+                    </span>
+                    <h3>History</h3>
+                </a>
+                <a href="#" class="__active">
+                    <span class="material-icons-sharp">
+                        insights
+                    </span>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        mail_outline
+                    </span>
+                    <h3>Tickets</h3>
+                    <span class="__message__count">32</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        inventory
+                    </span>
+                    <h3>Sale List</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        report_gmailerrorred
+                    </span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        settings
+                    </span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        add
+                    </span>
+                    <h3>New Login</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- SideBar end -->
+        <!-- Main Content start -->
+        <main>
+            <!-- Analyses start-->
+            <h1>Analytics</h1>
+            <div class="__analyses">
+                <div class="__sales">
+                    <div class="__status">
+                        <div class="__info">
+                            <h3>Total sales</h3>
+                            <h1>€128,684</h1>
+                        </div>
+                        <div class="__progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="__percentage">
+                                <p>+77%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="__visits">
+                    <div class="__status">
+                        <div class="__info">
+                            <h3>Visitor count</h3>
+                            <h1>12,184</h1>
+                        </div>
+                        <div class="__progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="__percentage">
+                                <p>-31%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="__searches">
+                    <div class="__status">
+                        <div class="__info">
+                            <h3>Searches</h3>
+                            <h1>16,841</h1>
+                        </div>
+                        <div class="__progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="__percentage">
+                                <p>-24%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Analyses end -->
+            <!-- New Users start -->
+            <div class="__new-users">
+                <h2>New Users</h2>
+                <div class="__user-list">
+                    <div class="__user">
+                        <img src="img/user-1.jpg" alt="user_1">
+                        <h2>Bella</h2>
+                        <p>24 Min Ago</p>
+                    </div>
+                    <div class="__user">
+                        <img src="img/user-2.jpg" alt="user_2">
+                        <h2>Robert</h2>
+                        <p>2 Hours Ago</p>
+                    </div>
+                    <div class="__user">
+                        <img src="img/user-3.jpg" alt="user_3">
+                        <h2>Amber</h2>
+                        <p>5 Hours Ago</p>
+                    </div>
+                    <div class="__user">
+                        <img src="img/more-users.png" alt="More_Users">
+                        <h2>More</h2>
+                        <p>New User</p>
+                    </div>
+                </div>
+            </div>
+            <!-- New Users end -->
+            <!-- Recent Orders Table start -->
+            <div class="__recent-orders">
+                <h2>Recent Orders</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Course Name</th>
+                            <th>Course Number</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+            <!-- Recent Orders Table end -->
+        </main>
+        <!-- Main Content end -->
+        <!-- Right Side Content start -->
+        <div class="__right-section">
+            <!-- Right Side Navigation start -->
+            <div class="__nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                    </span>
+                </button>
+                <div class="__dark-mode">
+                    <span class="material-icons-sharp __active">
+                        light_mode
+                    </span>
+                    <span class="material-icons-sharp">
+                        dark_mode
+                    </span>
+                </div>
+
+                <div class="__profile">
+                    <div class="__info">
+                        <p>Hey, <b>Paul!</b></p>
+                        <small class="__text-muted">
+                            Admin
+                        </small>
+                    </div>
+                    <div class="__profile-photo">
+                        <img src="img/admin.jpg" alt="Administrator_profile_image">
+                    </div>
+                </div>
+            </div>
+            <!-- Right Side Navigation end -->
+            <!-- User Profile start -->
+            <div class="__user-profile">
+                <div class="__logo">
+                    <img src="img/logo.png" alt="User profile logotype">
+                    <h2>Paul</h2>
+                    <p>Administrator dashboard</p>
+                </div>
+            </div>
+
+            <div class="__reminders">
+                <div class="__header">
+                    <h2>Reminders</h2>
+                    <span class="material-icons-sharp">
+                        notifications_none
+                    </span>
+                </div>
+
+                <div class="__notification">
+                    <div class="__icon">
+                        <span class="material-icons-sharp">
+                            volume_up
+                        </span>
+                    </div>
+
+                    <div class="__content">
+                        <div class="__info">
+                            <h3>Workshop</h3>
+                            <small class="_text-muted">
+                                09:00 AM - 13:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="__notification __deactive">
+                    <div class="__icon">
+                        <span class="material-icons-sharp">
+                            edit
+                        </span>
+                    </div>
+                    <div class="__content">
+                        <div class="__info">
+                            <h3>Meeting</h3>
+                            <small class="__text-muted">
+                                13:00 PM - 14:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="__notification __add-reminder">
+                    <div>
+                        <span class="material-icons-sharp">
+                            add
+                        </span>
+                        <h3>Add Reminder</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- User Profile end -->
+        </div>
+        <!-- Right Side Content end -->
+    </div>
+
+
+    <script src="js/orders.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
